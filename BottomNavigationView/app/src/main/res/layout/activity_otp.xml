@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".OtpActivity"
+    android:orientation="vertical"
+    android:gravity="center">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+    <EditText
+        android:id="@+id/etotp1"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="@drawable/custom_et"
+        android:textSize="25sp"
+        android:gravity="center"
+        android:inputType="number"
+        android:maxLength="10"
+        android:layout_marginStart="10dp"/>
+
+    <EditText
+        android:id="@+id/etotp2"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="@drawable/custom_et"
+        android:textSize="25sp"
+        android:gravity="center"
+        android:inputType="number"
+        android:maxLength="10"
+        android:layout_marginStart="10dp"/>
+
+    <EditText
+        android:id="@+id/etotp3"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="@drawable/custom_et"
+        android:textSize="25sp"
+        android:gravity="center"
+        android:inputType="number"
+        android:maxLength="10"
+        android:layout_marginStart="10dp"/>
+
+    <EditText
+        android:id="@+id/etotp4"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="@drawable/custom_et"
+        android:textSize="25sp"
+        android:gravity="center"
+        android:inputType="number"
+        android:maxLength="10"
+        android:layout_marginStart="10dp"/>
+
+    <EditText
+        android:id="@+id/etotp5"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="@drawable/custom_et"
+        android:textSize="25sp"
+        android:gravity="center"
+        android:inputType="number"
+        android:maxLength="10"
+        android:layout_marginStart="10dp"/>
+
+    <EditText
+        android:id="@+id/etotp6"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="@drawable/custom_et"
+        android:textSize="25sp"
+        android:gravity="center"
+        android:inputType="number"
+        android:maxLength="10"
+        android:layout_marginStart="10dp"/>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Verify otp"/>
+
+    </LinearLayout>
+
+</LinearLayout>
+
+
